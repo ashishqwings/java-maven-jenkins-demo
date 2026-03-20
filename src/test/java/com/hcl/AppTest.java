@@ -11,6 +11,12 @@ public class AppTest {
 		assertEquals("Hello, Jenkins", App.greet());
 	}
 	
+	@Test
+	public void testGreet2() {
+		assertEquals("Hello, Sanjivani", App.greet());
+	}
+	
+	
 }
 
 
