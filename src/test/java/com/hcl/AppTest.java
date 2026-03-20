@@ -17,6 +17,11 @@ public class AppTest {
 		assertNotEquals("Hello, Sanjivani", App.greet());
 	}
 	
+	@Test
+	public void dummyTest() {
+		assertEquals(4, 2 + 2);
+	}
+	
 	
 }
 
